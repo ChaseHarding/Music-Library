@@ -43,7 +43,7 @@ function App(){
                         <>
                         <SearchContext.Provider value={{
                             term: searchInput,
-                            andleSearch: handleSearch
+                            handleSearch: handleSearch
                             }}>
                          <SearchBar handleSearch = {handleSearch} /> 
                         </SearchContext.Provider>
